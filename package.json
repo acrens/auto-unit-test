@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "auto and unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "keywords": [
+    "auto",
+    "unit",
+    "test"
+  ],
+  "author": "acrens@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
+}
